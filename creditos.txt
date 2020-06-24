@@ -1,0 +1,8 @@
+player sprite:
+https://luizmelo.itch.io/hero-knight-2
+
+enemy sprite:
+https://luizmelo.itch.io/wizard-pack
+
+background:
+https://edermunizz.itch.io/free-pixel-art-forest
