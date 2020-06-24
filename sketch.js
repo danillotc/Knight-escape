@@ -56,6 +56,10 @@ function keyPressed(){
   }
 }
 
+function touchStarted(){
+  personagem.pular();
+}
+
 function draw() {
   cenario.exibe();
   cenario.move();
