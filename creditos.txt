@@ -1,8 +1,11 @@
-player sprite:
+Imersão GameDev:
+https://www.alura.com.br/
+
+Player sprite:
 https://luizmelo.itch.io/hero-knight-2
 
-enemy sprite:
+Enemy sprite:
 https://luizmelo.itch.io/wizard-pack
 
-background:
+Background:
 https://edermunizz.itch.io/free-pixel-art-forest
