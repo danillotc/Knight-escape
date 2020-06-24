@@ -52,7 +52,7 @@ function preload() {
   imagemGameOver = loadImage('imagens/interface/game-over.png');
   imagemPersonagem = loadImage('imagens/personagem/playerRun.png');
   imagemInimigo1 = loadImage('imagens/inimigos/enemy1_run.png');
-  imagemInimigo2 = loadImage('imagens/inimigos/enemy1_run.png');
+  imagemInimigo2 = loadImage('imagens/inimigos/enemy2_run.png');
   musica = loadSound('sons/trilha_jogo.mp3');
 }
 
