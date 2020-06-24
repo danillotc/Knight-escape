@@ -8,11 +8,14 @@ class Personagem extends Animacao {
       
       this.velocidadeDoPulo = 0;
       this.gravidade = 4;
+
+      this.somPulo = loadSound('sons/somPulo.mp3');
     }
     
     pular(){
       if (this.posY === this.yInicial){
         this.velocidadeDoPulo = -35;
+        this.somPulo.play();
       }
     }
     

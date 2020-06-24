@@ -34,7 +34,6 @@ function preload() {
   imagemCenario = loadImage('imagens/cenario/Background.png');
   imagemPersonagem = loadImage('imagens/personagem/Run.png');
   imagemInimigo = loadImage('imagens/inimigos/enemy_run.png');
-  somPulo = loadSound('sons/somPulo.mp3');
   musica = loadSound('sons/trilha_jogo.mp3');
 }
 
@@ -54,7 +53,6 @@ function setup() {
 function keyPressed(){
   if(keyCode === UP_ARROW) {
     personagem.pular();
-    somPulo.play();
   }
 }
 
