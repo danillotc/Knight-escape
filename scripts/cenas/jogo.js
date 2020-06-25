@@ -56,7 +56,7 @@ class Jogo {
       
         if (inimigoVisivel){
           this.inimigoAtual++;
-          this.dificuldade += 2;
+          this.dificuldade ++;
           if (this.inimigoAtual > inimigos.length-1) {
             this.inimigoAtual = 0;
           }
