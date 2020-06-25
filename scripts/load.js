@@ -18,7 +18,6 @@ function preload() {
     imagemInimigo1 = loadImage('imagens/inimigos/enemy1_run.png');
     imagemInimigo2 = loadImage('imagens/inimigos/enemy2_run.png');
     
-    imagemTelaInicial = loadImage('imagens/interface/telaInicial.png');
     fonteTelaInicial = loadFont('imagens/interface/fonteTelaInicial.otf');
 
     musica = loadSound('sons/trilha_jogo.mp3');
