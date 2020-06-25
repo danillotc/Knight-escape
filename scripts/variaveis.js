@@ -21,6 +21,7 @@ let pontuacao;
 
 let personagem;
 let inimigo;
+let inimigo2;
 
 let arrayPersonagem = [
     58, 
