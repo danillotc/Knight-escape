@@ -11,6 +11,7 @@ let pontuacao;
 
 let personagem;
 let inimigo;
+let inimigoAtual = 0;
 
 let arrayPersonagem = [
           58, 
@@ -106,19 +107,28 @@ function draw() {
   personagem.exibe();
   personagem.aplicarGravidade();
   
-  inimigos.forEach(inimigo => {
-    inimigo.exibe();
-    inimigo.move();  
+  const inimigo = inimigos[inimigoAtual];
+  const inimigoVisivel = inimigo.posX < -inimigo.largura;
 
-    if (personagem.colidindo(inimigo)) {
-      musica.stop();
-      image(imagemGameOver, width/2-200, height/2-120);
-      fill('#fff');
-      textAlign(CENTER);
-      textSize(20);
-      text('Pressione F5 para recomeçar',width/2, height/2+20);
-      noLoop();
+  inimigo.exibe();
+  inimigo.move();  
+
+  if (inimigoVisivel){
+    inimigoAtual++;
+    if (inimigoAtual > inimigos.length-1) {
+      inimigoAtual = 0;
+    }
+    inimigo.velocidade = parseInt(random(10,25));
   }
-    
-  })
+
+
+  if (personagem.colidindo(inimigo)) {
+    musica.stop();
+    image(imagemGameOver, width/2-200, height/2-120);
+    fill('#fff');
+    textAlign(CENTER);
+    textSize(20);
+    text('Pressione F5 para recomeçar',width/2, height/2+20);
+    noLoop();
+  }
 }

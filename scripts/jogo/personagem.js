@@ -14,7 +14,7 @@ class Personagem extends Animacao {
   
   pular(){
     if (this.posY === this.yInicial){
-      this.velocidadeDoPulo = -45;
+      this.velocidadeDoPulo = -50;
       this.somPulo.play();
     }
   }
