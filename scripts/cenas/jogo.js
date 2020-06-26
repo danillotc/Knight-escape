@@ -29,7 +29,7 @@ class Jogo {
 
     personagem = new Personagem(arrayPersonagem, imagemPersonagem, 20, 40, 100, 100, 50, 39, 44, 1);
 
-    inimigo = new Inimigo(arrayInimigo, imagemInimigo, width - 150, 40, 100, 100, 75, 79, 62, -1, 20);
+    inimigo = new Inimigo(arrayInimigo, imagemInimigo1, width - 150, 40, 100, 100, 75, 79, 62, -1, 20);
     inimigo2 = new Inimigo(arrayInimigo, imagemInimigo2, width - 150, 40, 100, 100, 75, 79, 62, -1, 20);
 
     inimigos.push(inimigo);
