@@ -14,6 +14,7 @@ function preload() {
     ];
 
     imagemGameOver = loadImage('imagens/interface/game-over.png');
+    imagemVida = loadImage('imagens/interface/coracao.png');
     imagemPersonagem = loadImage('imagens/personagem/playerRun.png');
     imagemInimigo1 = loadImage('imagens/inimigos/enemy1_run.png');
     imagemInimigo2 = loadImage('imagens/inimigos/enemy2_run.png');

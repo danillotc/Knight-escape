@@ -10,6 +10,8 @@ class Personagem extends Animacao {
     this.gravidade = 8;
     
     this.somPulo = loadSound('sons/somPulo.mp3');
+    
+    this.invencivel = false;
   }
   
   pular(){
@@ -28,7 +30,18 @@ class Personagem extends Animacao {
     }
   }
   
+  tornarInvencivel(){
+    this.invencivel = true;
+    setTimeout(() => {
+      this.invencivel = false;
+    }, 1000)
+  }
+  
   colidindo(inimigo){
+    if (this.invencivel) {
+      return false;
+    }
+        
     const precisaoXp = 0.4;
     const precisaoXi = 0.7;
     const precisaoY = 0.8;
