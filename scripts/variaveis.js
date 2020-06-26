@@ -5,7 +5,8 @@ let cenaAtual = 'telaInicial';
 
 let imagensCenario;
 let imagemPersonagem;
-let imagemInimigo;
+let imagemInimigo1;
+let imagemInimigo2;
 let imagemTelaInicial;
 let imagemGameOver;
 let imagemVida;
