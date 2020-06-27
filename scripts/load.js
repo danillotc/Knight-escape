@@ -21,5 +21,5 @@ function preload() {
     
     fonteTelaInicial = loadFont('imagens/interface/fonteTelaInicial.otf');
 
-    musica = loadSound('sons/trilha_jogo.mp3');
+    musica = loadSound('sons/knight-escape-theme.mp3');
   }
