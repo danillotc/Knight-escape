@@ -4,16 +4,16 @@ function setup() {
 
   cenario = [
     new Cenario(imagensCenario[10], 0),
-    new Cenario(imagensCenario[9], 1),
-    new Cenario(imagensCenario[8], 2),
-    new Cenario(imagensCenario[7], 3),
-    new Cenario(imagensCenario[6], 4),
-    new Cenario(imagensCenario[5], 5),
-    new Cenario(imagensCenario[4], 6),
-    new Cenario(imagensCenario[3], 8),
-    new Cenario(imagensCenario[2], 8),
-    new Cenario(imagensCenario[1], 10),
-    new Cenario(imagensCenario[0], 10)
+    new Cenario(imagensCenario[9], 3),
+    new Cenario(imagensCenario[8], 4),
+    new Cenario(imagensCenario[7], 5),
+    new Cenario(imagensCenario[6], 6),
+    new Cenario(imagensCenario[5], 7),
+    new Cenario(imagensCenario[4], 9),
+    new Cenario(imagensCenario[3], 11),
+    new Cenario(imagensCenario[2], 11),
+    new Cenario(imagensCenario[1], 13),
+    new Cenario(imagensCenario[0], 13)
   ];
   
   jogo = new Jogo();

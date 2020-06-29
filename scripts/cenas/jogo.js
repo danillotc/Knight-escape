@@ -20,6 +20,8 @@ class Jogo {
         velocidade: 35
       }
     ];
+    this.musicaGameOver = loadSound('sons/gameover.mp3');
+    this.musicaGameOver.setVolume(0.4);
   }
 
   setup() {
@@ -81,6 +83,7 @@ class Jogo {
         textAlign(CENTER);
         textSize(20);
         text('Pressione F5 para recomecar', width / 2, height / 2 + 20);
+        this.musicaGameOver.play();
         musica.stop();
         noLoop()
       }
