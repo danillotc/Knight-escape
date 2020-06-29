@@ -23,6 +23,7 @@ function setup() {
 
   botaoGerenciador = new BotaoGerenciador('Iniciar', width/2, height/2);
   
+  musica.setVolume(0.3);
   musica.loop();
 
   cenas = {

@@ -16,7 +16,6 @@ let fonteTelaInicial;
 let botaoGerenciador;
 
 let musica;
-let somPulo;
 
 let cenario;
 let pontuacao;

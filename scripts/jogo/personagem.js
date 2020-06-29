@@ -10,6 +10,9 @@ class Personagem extends Animacao {
     this.gravidade = 8;
     
     this.somPulo = loadSound('sons/somPulo.mp3');
+    this.somPulo.setVolume(0.4);
+    this.somDano = loadSound('sons/somDano.mp3');
+    this.somDano.setVolume(0.4);
     
     this.invencivel = false;
   }
@@ -32,6 +35,7 @@ class Personagem extends Animacao {
   
   tornarInvencivel(){
     this.invencivel = true;
+    this.somDano.play();
     setTimeout(() => {
       this.invencivel = false;
     }, 1000)
